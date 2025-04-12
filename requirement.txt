@@ -1,0 +1,25 @@
+# Streamlit app
+streamlit
+
+# Whisper for audio transcription
+git+https://github.com/openai/whisper.git
+
+# Transformers for text classification
+transformers
+torch  # required by transformers and whisper
+
+# MoviePy for extracting audio from video
+moviepy
+
+# OpenCV for video frame analysis
+opencv-python
+
+# NudeNet for nudity detection
+nudenet
+
+# ffmpeg (required for Whisper & MoviePy)
+ffmpeg-python
+
+# Additional common dependencies
+numpy
+Pillow
